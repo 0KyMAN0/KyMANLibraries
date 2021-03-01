@@ -20,7 +20,7 @@ Todo este proyecto puede ir cambiando a lo largo del tiempo con nuevas ideas y c
 
 Habrá una serie de objetivos que se irán cumpliendo, para ello muestro la siguiente lista de objetivos que poco a poco se irán llevando a cabo.
 
-- [ ] **HtmlPreloader**: Gestión de precargas de elementos HTML desde JS y ESCMAScript.
+- [X] **HtmlPreloader**: Gestión de precargas de elementos HTML desde JS y ESCMAScript.
 - [ ] **BinariesCodesMessages**: Gestión de códigos de mensaje binarios.
 - [ ] **I18N**: Gestión de idiomas y multilenguaje.
 - [ ] **Settings**: Gestión de configuraciones a nivel del lenguaje.

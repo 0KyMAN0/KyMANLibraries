@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>KyMANLibraries - Index</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <meta name="licence-text" content="© 2021-2022 CopyLeft. GPLv3." />
+        <meta name="licence-link" content="https://www.gnu.org/licenses/gpl-3.0.txt" />
+        <meta name="licence-icon" content="https://www.gnu.org/graphics/gplv3-127x51.png" />
+
+        <meta name="xdoc-file" content="https://kymanlibraries.k3y.pw/tests/index.html" />
+        <meta name="xdoc-author" content="KyMAN" />
+        <meta name="xdoc-since" content="20210301" />
+        <meta name="xdoc-version" content="20210301" />
+        <meta name="xdoc-access" content="public" />
+
+        <script data-type="text/javascript" data-language="ESCMAScript 2015" src="../../escma/KyMANLibraries.escma.js" data-crossorigin="anonymous" charset="utf-8"></script>
+        <script data-type="text/javascript" data-language="ESCMAScript 2015" src="../../escma/KyMANLibraries.HtmlPreloader.escma.js" data-crossorigin="anonymous" charset="utf-8"></script>
+
+        <script data-type="text/javascript" data-language="ESCMAScript 2015" charset="utf-8">
+
+
+            /*preloader = new KyMANLibraries.HtmlPreloader(div => {
+
+                console.log(div);
+
+                new KyMANLibraries.HtmlPreloader({
+                    selector : ".test",
+                    origin : div
+                }, item => {console.log(item);})
+
+            });*/
+
+            setTimeout(() => {
+                new KyMANLibraries.HtmlPreloader({
+                    selector : document.querySelector("body")
+                }, item => {console.error(item);});
+                document.querySelector("body").appendChild(document.createElement("div")).innerHTML = (
+                    '<div class="test">It works!</div>'
+                );
+            }, 500);
+
+        </script>
+
+    </head>
+    <body></body>
+</html>
